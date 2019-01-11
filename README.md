@@ -165,7 +165,7 @@ First of all, Axis2 has to be listening in `http://localhost:8080/axis2/` :
 
 And our service in `http://localhost:8080/axis2/services/Hello`:
 
-![320-Axis2_Service_Manager](C:\Users\alvaro\eclipse-workspace\WebServices-Hello-World\images\320-Axis2_Service_Manager.png)
+![320-Axis2_Service_Manager](images/320-Axis2_Service_Manager.png)
 
 
 
