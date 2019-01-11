@@ -130,7 +130,7 @@ shell> tree ./
 12 directories, 23 files
 ```
 
-Now, in order to get a friendly interface, a proxy will be implemented. This proxy will be named `client.HelloWSProxy` and it will implement a copy of interface of the service:
+Now, in order to get a friendly interface, a proxy will be implemented. This proxy will be named `client.HelloWSProxy` and it will implement a copy of the interface of the service:
 
 ```java
 public class HelloWSProxy implements client.IHello{
@@ -159,7 +159,7 @@ public class HelloWSProxy implements client.IHello{
 
 ### Testing the service
 
-First of all, Axis2 has to be listening on `http://localhost:8080/axis2/` :
+First of all, Axis2 has to be listening in `http://localhost:8080/axis2/` :
 
 ![310-Tomcat_WebApp_Manager](images/310-Tomcat_WebApp_Manager.png)
 
@@ -188,6 +188,8 @@ public class HelloClient {
 ```
 
 ```bash
+shell> bin/compileJava.sh
+
 shell> bin/runClient.sh
 > Say Hello
 Hello World!
